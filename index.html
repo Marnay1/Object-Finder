@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Object Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="background.jpg">
+        <div class="heading btn btn-success">
+            <h1>Object Detector Finder</h1>
+            <h3>Note: When using app type object in object name. Then press the start button and show the object that you typed in object name on the webcam then it should detect.</h3>
+        </div>
+        <label>Object Name: </label>
+        <br>
+        <input id="Object_Name" placeholder="Type Here">
+        <br>
+        <br>
+        <button id="start" class="btn btn-danger" onclick="start()">Start</button>
+        <br>
+        <h2 id="status" class="btn btn-warning"></h2>
+        <h2 id="detected" class="btn btn-info"></h2>
+        <script src="main.js"></script>
+    </body>
+</html>
