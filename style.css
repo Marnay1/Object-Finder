@@ -19,6 +19,5 @@ body{
 canvas{
     border: 5px 5px lightpink;
     box-shadow: 5px 5px 5px firebrick;
-    margin-top: 130px;
-    padding: 20px;
+    margin-top: 150px;
 }
